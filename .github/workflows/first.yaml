@@ -10,3 +10,9 @@ jobs:
         steps:
             - name: Greet the user
               run: echo "Hello world"
+            
+            
+            - name: Multiline comment
+              run: |
+                echo This is the first line
+                echo This is the second line
