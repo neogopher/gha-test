@@ -1,1 +1,12 @@
 name: Sample workflow to test GH Actions
+on:
+    - push
+
+jobs:
+    greet:
+        name: Greet user
+        runs-on: ubuntu-latest
+        
+        steps:
+            - name: Greet the user
+              run: echo "Hello world"
