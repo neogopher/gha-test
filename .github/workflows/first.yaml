@@ -16,3 +16,8 @@ jobs:
               run: |
                 echo This is the first line
                 echo This is the second line
+            
+            
+            
+            - name: cowsay
+              run: cowsay Mooo
