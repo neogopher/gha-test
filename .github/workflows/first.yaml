@@ -19,7 +19,7 @@ jobs:
             
             
             - name: Install cowsay
-              run: apt update -y && apt install cowsay
+              run: sudo apt update -y && sudo apt install cowsay -y
             
             - name: cowsay
               run: cowsay Mooo
