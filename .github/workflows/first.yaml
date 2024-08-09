@@ -18,6 +18,8 @@ jobs:
                 echo This is the second line
             
             
+            - name: Install cowsay
+              run: apt update -y && apt install cowsay
             
             - name: cowsay
               run: cowsay Mooo
